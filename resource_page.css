@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+/* Add styles for the back arrow link */
+.back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.back-link:hover {
+    color: #007bff;
+}
+
+/* Add some padding to the left of the header to accommodate the back arrow */
+header {
+    position: relative;
+    padding-left: 40px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resource {
+    width: calc(20% - 20px); /* Calculate width for 5 resources with margins */
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.resource p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.resource a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.resource a:hover {
+    text-decoration: underline;
+}
